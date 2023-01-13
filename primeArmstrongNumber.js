@@ -1,18 +1,17 @@
-function primeNumber(number) {
-    if (number==2 || number == 3) console.log('Is is PrimeNumber');
+const isPrimeNumber =(number)=> {
+    if (number==2 || number == 3) return true;
     for ( let i=2;i<number/2;i++){
-     if( number%i==0)console.log("Not a Prime Number")
-     else console.log('Is a Prime Number '); ;
+     if( number%i==0) return false;
+     else return true;
     }
   }
-  function armstrongNumber(number){
+const armstrongNumber =(number) =>{
     let test=0,n=number;
     for(;number != 0;number/=10){
         test+= Math.pow( number%10,3);
     }
-if (n===test) console.log('Is a Armstrong Number');
-else  console.log('Is not a Armstrong Number');
+if (n===test) return true;
+else  return false;
   }
-  primeNumber(153)
-  armstrongNumber(153)
-  primeNumber(2)
+  console.log( primeNumber(153))
+  console.log( armstrongNumber(153));
