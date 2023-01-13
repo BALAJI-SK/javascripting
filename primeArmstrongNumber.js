@@ -7,8 +7,8 @@ function primeNumber(number) {
   }
   function armstrongNumber(number){
     let test=0,n=number;
-    for(;number != 0;number%=10){
-        test+= Math.pow( number/10,3);
+    for(;number != 0;number/=10){
+        test+= Math.pow( number%10,3);
     }
 if (n===test) console.log('Is a Armstrong Number');
 else  console.log('Is not a Armstrong Number');
