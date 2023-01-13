@@ -13,3 +13,6 @@ function primeNumber(number) {
 if (n===test) console.log('Is a Armstrong Number');
 else  console.log('Is not a Armstrong Number');
   }
+  primeNumber(153)
+  armstrongNumber(153)
+  primeNumber(2)
