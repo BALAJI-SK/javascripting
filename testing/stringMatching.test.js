@@ -13,15 +13,15 @@ test('String MAtching',()=>{
 })
 
 test('String MAtching',()=>{
-    expect(isStringMatching('javaScript')).toEqual(true)
+    expect(isStringMatchingArrow('javaScript')).toEqual(true)
 })
 test('String MAtching',()=>{
-    expect(isStringMatching('java ff Script')).toEqual(true)
+    expect(isStringMatchingArrow('java ff Script')).toEqual(true)
 })
 test('String MAtching',()=>{
-    expect(isStringMatching('javascript')).toEqual(false)
+    expect(isStringMatchingArrow('javascript')).toEqual(false)
 })
 test('String MAtching',()=>{
-    expect(isStringMatching('cript')).toEqual(false)
+    expect(isStringMatchingArrow('cript')).toEqual(false)
 })
 
