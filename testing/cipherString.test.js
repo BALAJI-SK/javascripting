@@ -1,25 +1,25 @@
-const {alphabetCharShift,alphabetCharShiftArrow}=require('../ciperString')
+const {alphabetCharShift,alphabetCharShiftArrow}=require('../ciperString');
 test('Cipher text',()=>{
-    expect(alphabetCharShift("codeacademy")).toEqual("dpefbdbefnz")
-})
+  expect(alphabetCharShift('codeacademy')).toEqual('dpefbdbefnz');
+});
 test('Cipher text',()=>{
-    expect(alphabetCharShift('abcdefg')).toEqual('bcdefgh')
-})
+  expect(alphabetCharShift('abcdefg')).toEqual('bcdefgh');
+});
 test('Cipher text',()=>{
-    expect(alphabetCharShift("lazyinterns")).toEqual("mbazjoufsot")
-})
+  expect(alphabetCharShift('lazyinterns')).toEqual('mbazjoufsot');
+});
 test('Cipher text',()=>{
-    expect(alphabetCharShift("codeaca")).toEqual("dpefbdb")
-})
+  expect(alphabetCharShift('codeaca')).toEqual('dpefbdb');
+});
 test('Cipher text',()=>{
-    expect(alphabetCharShiftArrow("codeacademy")).toEqual("dpefbdbefnz")
-})
+  expect(alphabetCharShiftArrow('codeacademy')).toEqual('dpefbdbefnz');
+});
 test('Cipher text',()=>{
-    expect(alphabetCharShiftArrow('abcdefg')).toEqual('bcdefgh')
-})
+  expect(alphabetCharShiftArrow('abcdefg')).toEqual('bcdefgh');
+});
 test('Cipher text',()=>{
-    expect(alphabetCharShiftArrow("lazyinterns")).toEqual("mbazjoufsot")
-})
+  expect(alphabetCharShiftArrow('lazyinterns')).toEqual('mbazjoufsot');
+});
 test('Cipher text',()=>{
-    expect(alphabetCharShiftArrow("codeac")).toEqual("dpefbd")
-})
+  expect(alphabetCharShiftArrow('codeac')).toEqual('dpefbd');
+});

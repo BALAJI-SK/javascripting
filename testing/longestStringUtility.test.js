@@ -1,33 +1,33 @@
-const {longestString, longestStringArrow}=require('../longestStringUtility')
+const {longestString, longestStringArrow}=require('../longestStringUtility');
 
 test('Displaying Longest String of Array of String',()=>{
-    expect(longestString(["we", "love", "code", "academy"])).toEqual("academy");
-})
+  expect(longestString(['we', 'love', 'code', 'academy'])).toEqual('academy');
+});
 
 test('Displaying Longest String of Array of String',()=>{
-    expect(longestString(["we", "welcome to", "code", "academy"])).toEqual("welcome to");
-})
+  expect(longestString(['we', 'welcome to', 'code', 'academy'])).toEqual('welcome to');
+});
 
 test('Displaying Longest String of Array of String',()=>{
-    expect(longestString(["we", "love", "code", "Hello d"])).toEqual("Hello d");
-})
+  expect(longestString(['we', 'love', 'code', 'Hello d'])).toEqual('Hello d');
+});
 
 test('Displaying Longest String of Array of String',()=>{
-    expect(longestString(["we", "love", "code", "acawqdemy"])).toEqual("acawqdemy");
-})
+  expect(longestString(['we', 'love', 'code', 'acawqdemy'])).toEqual('acawqdemy');
+});
 //Test Arrow Function 
 test('Displaying Longest String of Array of String',()=>{
-    expect(longestStringArrow(["we", "love", "code", "academy"])).toEqual("academy");
-})
+  expect(longestStringArrow(['we', 'love', 'code', 'academy'])).toEqual('academy');
+});
 
 test('Displaying Longest String of Array of String',()=>{
-    expect(longestStringArrow(["we", "welcome to", "code", "academy"])).toEqual("welcome to");
-})
+  expect(longestStringArrow(['we', 'welcome to', 'code', 'academy'])).toEqual('welcome to');
+});
 
 test('Displaying Longest String of Array of String',()=>{
-    expect(longestStringArrow(["we", "love", "code", "Hello d"])).toEqual("Hello d");
-})
+  expect(longestStringArrow(['we', 'love', 'code', 'Hello d'])).toEqual('Hello d');
+});
 
 test('Displaying Longest String of Array of String',()=>{
-    expect(longestStringArrow(["we", "love", "code", "acawqdemy"])).toEqual("acawqdemy");
-})
+  expect(longestStringArrow(['we', 'love', 'code', 'acawqdemy'])).toEqual('acawqdemy');
+});

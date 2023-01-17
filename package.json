@@ -1,0 +1,28 @@
+{
+  "name": "javascripting",
+  "version": "1.0.0",
+  "main": "introduction.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BALAJI-SK/javascripting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BALAJI-SK/javascripting/issues"
+  },
+  "homepage": "https://github.com/BALAJI-SK/javascripting#readme",
+  "dependencies": {
+    "javascripting": "^2.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "install": "^0.13.0",
+    "jest": "^29.3.1"
+  },
+  "keywords": [],
+  "description": ""
+}

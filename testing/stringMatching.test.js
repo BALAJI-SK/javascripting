@@ -1,27 +1,27 @@
-const {isStringMatching,isStringMatchingArrow}=require('../stringMatching')
+const {isStringMatching,isStringMatchingArrow}=require('../stringMatching');
 test('String MAtching',()=>{
-    expect(isStringMatching('javaScript')).toEqual(true)
-})
+  expect(isStringMatching('javaScript')).toEqual(true);
+});
 test('String MAtching',()=>{
-    expect(isStringMatching('java fjdfh Script')).toEqual(true)
-})
+  expect(isStringMatching('java fjdfh Script')).toEqual(true);
+});
 test('String MAtching',()=>{
-    expect(isStringMatching('javascript')).toEqual(false)
-})
+  expect(isStringMatching('javascript')).toEqual(false);
+});
 test('String MAtching',()=>{
-    expect(isStringMatching('java')).toEqual(false)
-})
+  expect(isStringMatching('java')).toEqual(false);
+});
 
 test('String MAtching',()=>{
-    expect(isStringMatchingArrow('javaScript')).toEqual(true)
-})
+  expect(isStringMatchingArrow('javaScript')).toEqual(true);
+});
 test('String MAtching',()=>{
-    expect(isStringMatchingArrow('java ff Script')).toEqual(true)
-})
+  expect(isStringMatchingArrow('java ff Script')).toEqual(true);
+});
 test('String MAtching',()=>{
-    expect(isStringMatchingArrow('javascript')).toEqual(false)
-})
+  expect(isStringMatchingArrow('javascript')).toEqual(false);
+});
 test('String MAtching',()=>{
-    expect(isStringMatchingArrow('cript')).toEqual(false)
-})
+  expect(isStringMatchingArrow('cript')).toEqual(false);
+});
 
